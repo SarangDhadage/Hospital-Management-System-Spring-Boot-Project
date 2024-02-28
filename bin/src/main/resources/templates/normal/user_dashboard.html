@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" 
+               th:replace="normal/base::layout(~{::section})">
+<head>
+    <title>This is Home Page</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="card">
+                <div class="card-body">
+                    <div class="container text-center">
+                        <img src="" style="height: 200px; width: 200px;" class="my_profile_picture" th:src="@{'/img/payment.png'}" alt="profile photo"/>
+                    </div>
+                    <h1 class="text-center m-3 text-secondary font-italic">
+                        Make a Payment Here
+                    </h1>
+                    <button class="btn  btn-primary mt-4 btn-block text-uppercase">Payment</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

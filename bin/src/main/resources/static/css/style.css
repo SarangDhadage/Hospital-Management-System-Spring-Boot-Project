@@ -1,8 +1,3 @@
-
-nav .logo{
-	boder-radius:20px;
-}
-
 body{
     background:#e2e2e2!important;
 }
@@ -10,24 +5,12 @@ body{
     background: #050505 !important;
 }
 
-.HomeDash{
-	width: 100%;
-    height: 91.2vh;
-    color: white;
-    background:url(../img/backgroundimg.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-size: cover;
-}
-
 .banner
 {
     width: 100%;
     height: 91.2vh;
     color: white;
-    background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)) ,url(../img/hospital_background.jpg) no-repeat center center fixed;
+    background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)) ,url(../img/home1.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

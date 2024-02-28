@@ -28,19 +28,19 @@ public class HomeController {
 
     @RequestMapping("/")
     public String home(Model model) {
-        model.addAttribute("title", "Home-TechCare");
+        model.addAttribute("title", "Home-CityCare");
         return "home";
     }
 
     @RequestMapping("/about")
     public String about(Model model) {
-        model.addAttribute("title", "About-TechCare");
+        model.addAttribute("title", "About-CityCare");
         return "about";
     }
 
     @RequestMapping("/signup")
     public String signup(Model model) {
-        model.addAttribute("title", "Register-TechCare");
+        model.addAttribute("title", "Register-CityCare");
         model.addAttribute("user", new User());
         return "signup";
     }
